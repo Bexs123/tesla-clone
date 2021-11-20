@@ -16,5 +16,8 @@ export default Section
 const Wrap = styled.div`
 width: 100vw;
 height: 100vh;
-background: orange;
-ba`
+background-size: cover;
+background-positiion: center;
+background-repeat: no-repeat;
+background-image: url('/images/model-s.jpg');
+`
