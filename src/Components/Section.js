@@ -3,11 +3,11 @@ import styled from 'styled-components'
 
 
 
-function Section() {
+function Section({ title, description  }) {
     return (
         <Wrap>
             <ItemText>
-                <h1>Model S</h1>
+                <h1>( title )</h1>
                 <p>Order Online for Touchless Delievery</p>
             </ItemText>
             <Buttons>
